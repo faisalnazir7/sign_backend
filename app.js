@@ -19,7 +19,7 @@ const userSchema = new mongoose.Schema(
     {
         email: String,
         password: String,
-        user: String,
+        username: String,
         age: Number,
         hobby: String
     });
